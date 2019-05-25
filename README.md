@@ -29,3 +29,15 @@ Add this to your `package.json`
     ]
   }
 ```
+
+# Recommended Prettier Config
+
+Add this to your `package.json`
+
+```
+"prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+```

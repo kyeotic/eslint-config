@@ -4,7 +4,8 @@
   "description": "Kyeotic's personal eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "prettier --config package.json  --write \"*.js\""
+    "test": "prettier --config package.json  --write \"*.js\"",
+    "push": "npm publish --access public"
   },
   "repository": {
     "type": "git",
