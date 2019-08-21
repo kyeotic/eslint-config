@@ -1,6 +1,6 @@
 {
   "name": "@kyeotic/eslint-config",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Kyeotic's personal eslint config",
   "main": "index.js",
   "scripts": {
