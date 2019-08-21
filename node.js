@@ -1,7 +1,11 @@
+'use strict'
+
+let { rules } = require('./shared')
+
 module.exports = {
   extends: ['recommended/node', 'prettier'],
   rules: {
-    'prefer-const': 0,
+    ...rules,
     'import/no-commonjs': 0,
     'import/no-nodejs-modules': 0
   },

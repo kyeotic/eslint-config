@@ -4,8 +4,8 @@ My personal eslint configurations
 
 ## Installation
 
-```
-npm install @kyeotic/eslint-config
+```shell
+npm install @kyeotic/eslint-config eslint-plugin-react # peer deps must be installed
 ```
 
 # Use for Browsers
