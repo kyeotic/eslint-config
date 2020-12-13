@@ -7,16 +7,16 @@ module.exports = {
   rules: {
     ...rules,
     'import/no-commonjs': 0,
-    'import/no-nodejs-modules': 0
+    'import/no-nodejs-modules': 0,
   },
   parserOptions: {
     ecmaVersion: 9,
     env: {
-      node: true
+      node: true,
     },
     ecmaFeatures: {
       defaultParams: true,
-      spread: true
-    }
-  }
+      spread: true,
+    },
+  },
 }

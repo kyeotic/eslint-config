@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "prettier --config package.json  --write \"*.js\"",
-    "push": "npm publish --access public"
+    "push": "npm publish --access public",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -26,14 +27,15 @@
     "singleQuote": true
   },
   "dependencies": {
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-config-recommended": "^4.0.0"
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-recommended": "^4.1.0"
   },
   "peerDependencies": {
     "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "prettier": "^1.17.1"
+    "eslint": "^7.15.0",
+    "np": "^7.0.0",
+    "prettier": "^2.2.1"
   }
 }
