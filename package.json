@@ -6,6 +6,7 @@
   "scripts": {
     "test": "prettier --config package.json  --write \"*.js\"",
     "push": "npm publish --access public",
+    "lint": "eslint \"*.js\"",
     "release": "np"
   },
   "repository": {

@@ -14,7 +14,7 @@ module.exports = {
   rules: {
     ...rules,
     'sort-imports': 0,
-    'import/extensions': 'ignorePackages',
+    'import/extensions': ['error', 'ignorePackages'],
     'react/prop-types': 0,
     'import/no-named-as-default': 0,
     'import/prefer-default-export': 0,
